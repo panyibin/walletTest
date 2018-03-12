@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB7D44094AF8EBA9CBE414CE78D23F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2F6D56A3FFA2AF37AF4587822397A4EB /* Pods-SkycoinTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52546E98320132F1083CDE07CD0E6339 /* Pods-SkycoinTestTests-dummy.m */; };
+		3996616107B8EFECF91E76AAEE07263A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6317A4CC25E293A08788DB09A803C293 /* Pods-SkycoinTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99733290B47EDD069FE7845892B38770 /* Pods-SkycoinTest-dummy.m */; };
+		96D46A7F5A54CA1B037FA164F7549C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A8840CD3E41DA29C6BAFEB16FB3D1C00 /* Pods-SkycoinTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3487E9621734019F97254F286C370D13 /* Pods-SkycoinTestUITests-dummy.m */; };
+		ADD75B3EE9E4F752B49C97DABBA8D55E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B2A71261B544C36F11E6151E72DA70B0 /* NSTimer+Yibin.h in Headers */ = {isa = PBXBuildFile; fileRef = CB60E0F22F1F4A2F7A8C06C515227479 /* NSTimer+Yibin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E112F4B39FA9E990D668EA37EDE2AC6C /* YBUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AAA7EB6307A0FECDA0FFFCED0EAB89 /* YBUtils-dummy.m */; };
+		EC52BCE2E77069F3689454CE86781287 /* NSTimer+Yibin.m in Sources */ = {isa = PBXBuildFile; fileRef = B5218F16DB98F8C24B1D190735A6FF94 /* NSTimer+Yibin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A0D4C002DD2E0242F9E81707D7C83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A429C49B878CD8D89630BA18C7B51D92;
+			remoteInfo = YBUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1007FF2BB4DBF8A4D50587AFCA5866FB /* Pods-SkycoinTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkycoinTest-frameworks.sh"; sourceTree = "<group>"; };
+		122E81C4BA28BCB2D7DDE68C5601FBAB /* Pods-SkycoinTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkycoinTest-resources.sh"; sourceTree = "<group>"; };
+		2C4C9ABF348704C16B6FA140629EF6DA /* Pods-SkycoinTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkycoinTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3487E9621734019F97254F286C370D13 /* Pods-SkycoinTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkycoinTestUITests-dummy.m"; sourceTree = "<group>"; };
+		3BFCC0304F07BACD2C01A20D37C79B2B /* Pods-SkycoinTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkycoinTestTests-resources.sh"; sourceTree = "<group>"; };
+		439B7282DC6715C72B05CB3CC3907523 /* Pods-SkycoinTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkycoinTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43AAA7EB6307A0FECDA0FFFCED0EAB89 /* YBUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBUtils-dummy.m"; sourceTree = "<group>"; };
+		52546E98320132F1083CDE07CD0E6339 /* Pods-SkycoinTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkycoinTestTests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DBD5A8C8837487AFBAB8AD6DBD014B2 /* libPods-SkycoinTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SkycoinTest.a"; path = "libPods-SkycoinTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700C0FDE13EEF2D5380B3E45CCEA293B /* libPods-SkycoinTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SkycoinTestUITests.a"; path = "libPods-SkycoinTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DBBCF1A67C3DF552F2DBF5BD9194DB /* Pods-SkycoinTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkycoinTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CA2F368A347BF4A2AF140B755DBC935 /* libPods-SkycoinTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SkycoinTestTests.a"; path = "libPods-SkycoinTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4C74A2186CD37B36AD192EFA3D362F /* Pods-SkycoinTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkycoinTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F31616A4E5E5BCE12AFEFAE0904B18 /* libYBUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYBUtils.a; path = libYBUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FF6529C0EB83125182F254298A8708 /* Pods-SkycoinTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkycoinTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		99733290B47EDD069FE7845892B38770 /* Pods-SkycoinTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkycoinTest-dummy.m"; sourceTree = "<group>"; };
+		AFC77B33B3C435292F8504E1AB9771AD /* YBUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBUtils-prefix.pch"; sourceTree = "<group>"; };
+		B5218F16DB98F8C24B1D190735A6FF94 /* NSTimer+Yibin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Yibin.m"; path = "YBUtils/Classes/NSTimer+Yibin.m"; sourceTree = "<group>"; };
+		B973FC4AC9AB84E645D64BAAB6CDCE79 /* Pods-SkycoinTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkycoinTest.release.xcconfig"; sourceTree = "<group>"; };
+		BBA2346A84C2D47C4134C88D01B04E3D /* Pods-SkycoinTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkycoinTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		BED18ECE1F92221EBA36B78DEC8265F0 /* Pods-SkycoinTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkycoinTestTests-frameworks.sh"; sourceTree = "<group>"; };
+		C2A6CD4243D270623DC08F603E54FA10 /* Pods-SkycoinTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkycoinTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C99D911FED884A72D078E7D53C043A7F /* YBUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBUtils.xcconfig; sourceTree = "<group>"; };
+		CB60E0F22F1F4A2F7A8C06C515227479 /* NSTimer+Yibin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Yibin.h"; path = "YBUtils/Classes/NSTimer+Yibin.h"; sourceTree = "<group>"; };
+		DAC89EB3EB7B40FCE8DCB16B7349DA6D /* Pods-SkycoinTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkycoinTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC8CFE323AD14EFC8F5D0122ED38D519 /* Pods-SkycoinTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkycoinTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C1286304FDDF43CFC0CDE0BC47FEED /* Pods-SkycoinTestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkycoinTestUITests-resources.sh"; sourceTree = "<group>"; };
+		F3C2ED79CF62E383B3B9739F854B4821 /* Pods-SkycoinTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkycoinTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F7962CA28CF588442F18143AB65E8DAB /* Pods-SkycoinTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkycoinTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1D6FF2890D57E66F61360F594526FC /* Pods-SkycoinTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkycoinTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F10F95E6D0C4653DFEB332482EFF0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D46A7F5A54CA1B037FA164F7549C84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACF26FC8CE9D5E9AE817319D89F0367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996616107B8EFECF91E76AAEE07263A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B78C43357997C2390A409C1487D2150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD75B3EE9E4F752B49C97DABBA8D55E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BA890A295B02E5EC7D0C3E05F64ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB7D44094AF8EBA9CBE414CE78D23F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3524F80A4714F7216F6F0C605B8EE63B /* Pods-SkycoinTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1D6FF2890D57E66F61360F594526FC /* Pods-SkycoinTestTests-acknowledgements.markdown */,
+				95FF6529C0EB83125182F254298A8708 /* Pods-SkycoinTestTests-acknowledgements.plist */,
+				52546E98320132F1083CDE07CD0E6339 /* Pods-SkycoinTestTests-dummy.m */,
+				BED18ECE1F92221EBA36B78DEC8265F0 /* Pods-SkycoinTestTests-frameworks.sh */,
+				3BFCC0304F07BACD2C01A20D37C79B2B /* Pods-SkycoinTestTests-resources.sh */,
+				F7962CA28CF588442F18143AB65E8DAB /* Pods-SkycoinTestTests.debug.xcconfig */,
+				75DBBCF1A67C3DF552F2DBF5BD9194DB /* Pods-SkycoinTestTests.release.xcconfig */,
+			);
+			name = "Pods-SkycoinTestTests";
+			path = "Target Support Files/Pods-SkycoinTestTests";
+			sourceTree = "<group>";
+		};
+		64122D9585555F2B536ADE80AC6F5881 /* Pods-SkycoinTest */ = {
+			isa = PBXGroup;
+			children = (
+				C2A6CD4243D270623DC08F603E54FA10 /* Pods-SkycoinTest-acknowledgements.markdown */,
+				BBA2346A84C2D47C4134C88D01B04E3D /* Pods-SkycoinTest-acknowledgements.plist */,
+				99733290B47EDD069FE7845892B38770 /* Pods-SkycoinTest-dummy.m */,
+				1007FF2BB4DBF8A4D50587AFCA5866FB /* Pods-SkycoinTest-frameworks.sh */,
+				122E81C4BA28BCB2D7DDE68C5601FBAB /* Pods-SkycoinTest-resources.sh */,
+				DC8CFE323AD14EFC8F5D0122ED38D519 /* Pods-SkycoinTest.debug.xcconfig */,
+				B973FC4AC9AB84E645D64BAAB6CDCE79 /* Pods-SkycoinTest.release.xcconfig */,
+			);
+			name = "Pods-SkycoinTest";
+			path = "Target Support Files/Pods-SkycoinTest";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EDB7AD9B5F3FD3A1BB0ECF6333A385D2 /* Pods */,
+				F87662F6076DD14C484B2B8B9DCA29AA /* Products */,
+				DC93462C97245A44F9F272B6ECAFE498 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9939A9AD5D21DC7DE8853D97E30A98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99D911FED884A72D078E7D53C043A7F /* YBUtils.xcconfig */,
+				43AAA7EB6307A0FECDA0FFFCED0EAB89 /* YBUtils-dummy.m */,
+				AFC77B33B3C435292F8504E1AB9771AD /* YBUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YBUtils";
+			sourceTree = "<group>";
+		};
+		8DBF3B12AC329BB5223102AE598F3373 /* YBUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CB60E0F22F1F4A2F7A8C06C515227479 /* NSTimer+Yibin.h */,
+				B5218F16DB98F8C24B1D190735A6FF94 /* NSTimer+Yibin.m */,
+				8D9939A9AD5D21DC7DE8853D97E30A98 /* Support Files */,
+			);
+			name = YBUtils;
+			path = YBUtils;
+			sourceTree = "<group>";
+		};
+		9ACDC8996F2F948F8190352A3D43C5F8 /* Pods-SkycoinTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				439B7282DC6715C72B05CB3CC3907523 /* Pods-SkycoinTestUITests-acknowledgements.markdown */,
+				8D4C74A2186CD37B36AD192EFA3D362F /* Pods-SkycoinTestUITests-acknowledgements.plist */,
+				3487E9621734019F97254F286C370D13 /* Pods-SkycoinTestUITests-dummy.m */,
+				F3C2ED79CF62E383B3B9739F854B4821 /* Pods-SkycoinTestUITests-frameworks.sh */,
+				F1C1286304FDDF43CFC0CDE0BC47FEED /* Pods-SkycoinTestUITests-resources.sh */,
+				DAC89EB3EB7B40FCE8DCB16B7349DA6D /* Pods-SkycoinTestUITests.debug.xcconfig */,
+				2C4C9ABF348704C16B6FA140629EF6DA /* Pods-SkycoinTestUITests.release.xcconfig */,
+			);
+			name = "Pods-SkycoinTestUITests";
+			path = "Target Support Files/Pods-SkycoinTestUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC93462C97245A44F9F272B6ECAFE498 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64122D9585555F2B536ADE80AC6F5881 /* Pods-SkycoinTest */,
+				3524F80A4714F7216F6F0C605B8EE63B /* Pods-SkycoinTestTests */,
+				9ACDC8996F2F948F8190352A3D43C5F8 /* Pods-SkycoinTestUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EDB7AD9B5F3FD3A1BB0ECF6333A385D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DBF3B12AC329BB5223102AE598F3373 /* YBUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F87662F6076DD14C484B2B8B9DCA29AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBD5A8C8837487AFBAB8AD6DBD014B2 /* libPods-SkycoinTest.a */,
+				8CA2F368A347BF4A2AF140B755DBC935 /* libPods-SkycoinTestTests.a */,
+				700C0FDE13EEF2D5380B3E45CCEA293B /* libPods-SkycoinTestUITests.a */,
+				93F31616A4E5E5BCE12AFEFAE0904B18 /* libYBUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E354DC70690AF7D0EA8729444604618 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A71261B544C36F11E6151E72DA70B0 /* NSTimer+Yibin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40803D8C311A1D8DE6681D9FED320857 /* Pods-SkycoinTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044D285AC59D869241FF88A7687B8C38 /* Build configuration list for PBXNativeTarget "Pods-SkycoinTestTests" */;
+			buildPhases = (
+				336617998757920CDBD302C799704F2F /* Sources */,
+				2ACF26FC8CE9D5E9AE817319D89F0367 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SkycoinTestTests";
+			productName = "Pods-SkycoinTestTests";
+			productReference = 8CA2F368A347BF4A2AF140B755DBC935 /* libPods-SkycoinTestTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55249689B02894AD4E29CEA58EC0B479 /* Pods-SkycoinTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59870782ED962A6F2346352EF7C3DCCF /* Build configuration list for PBXNativeTarget "Pods-SkycoinTest" */;
+			buildPhases = (
+				00489CA6046C422AF07CD306DF489D11 /* Sources */,
+				1F10F95E6D0C4653DFEB332482EFF0C6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ECCE6198B099A0547C47C425BBEFC7F /* PBXTargetDependency */,
+			);
+			name = "Pods-SkycoinTest";
+			productName = "Pods-SkycoinTest";
+			productReference = 6DBD5A8C8837487AFBAB8AD6DBD014B2 /* libPods-SkycoinTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B9896A7E11C94F990A721584174FEBC /* Pods-SkycoinTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28C947BBB99824F57D8C1DA140CAB18 /* Build configuration list for PBXNativeTarget "Pods-SkycoinTestUITests" */;
+			buildPhases = (
+				705B2F2F6764EC79D9F05B57DD9EFCC7 /* Sources */,
+				7B78C43357997C2390A409C1487D2150 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SkycoinTestUITests";
+			productName = "Pods-SkycoinTestUITests";
+			productReference = 700C0FDE13EEF2D5380B3E45CCEA293B /* libPods-SkycoinTestUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A429C49B878CD8D89630BA18C7B51D92 /* YBUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C3C7DA5CBF5EF1D3210E6F160C7522 /* Build configuration list for PBXNativeTarget "YBUtils" */;
+			buildPhases = (
+				E8D1A4355E697B5D6E4C020C0779C358 /* Sources */,
+				96BA890A295B02E5EC7D0C3E05F64ED1 /* Frameworks */,
+				1E354DC70690AF7D0EA8729444604618 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBUtils;
+			productName = YBUtils;
+			productReference = 93F31616A4E5E5BCE12AFEFAE0904B18 /* libYBUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F87662F6076DD14C484B2B8B9DCA29AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55249689B02894AD4E29CEA58EC0B479 /* Pods-SkycoinTest */,
+				40803D8C311A1D8DE6681D9FED320857 /* Pods-SkycoinTestTests */,
+				5B9896A7E11C94F990A721584174FEBC /* Pods-SkycoinTestUITests */,
+				A429C49B878CD8D89630BA18C7B51D92 /* YBUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00489CA6046C422AF07CD306DF489D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6317A4CC25E293A08788DB09A803C293 /* Pods-SkycoinTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336617998757920CDBD302C799704F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6D56A3FFA2AF37AF4587822397A4EB /* Pods-SkycoinTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705B2F2F6764EC79D9F05B57DD9EFCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8840CD3E41DA29C6BAFEB16FB3D1C00 /* Pods-SkycoinTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D1A4355E697B5D6E4C020C0779C358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC52BCE2E77069F3689454CE86781287 /* NSTimer+Yibin.m in Sources */,
+				E112F4B39FA9E990D668EA37EDE2AC6C /* YBUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ECCE6198B099A0547C47C425BBEFC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YBUtils;
+			target = A429C49B878CD8D89630BA18C7B51D92 /* YBUtils */;
+			targetProxy = 16A0D4C002DD2E0242F9E81707D7C83C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		299276349DF3AB972631A90F342E4B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75DBBCF1A67C3DF552F2DBF5BD9194DB /* Pods-SkycoinTestTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6E0E9B8366FF0C0DA26FD1FD316CBC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8CFE323AD14EFC8F5D0122ED38D519 /* Pods-SkycoinTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8F2D8B1DB31F629437DCA40FC3482963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7962CA28CF588442F18143AB65E8DAB /* Pods-SkycoinTestTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91CEFACC6C50D4D1FA4D996BA67EFE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC89EB3EB7B40FCE8DCB16B7349DA6D /* Pods-SkycoinTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8C1F116543EDD0C0E604B897B7A55D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4C9ABF348704C16B6FA140629EF6DA /* Pods-SkycoinTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4A129627721D55545C49624CB5227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B973FC4AC9AB84E645D64BAAB6CDCE79 /* Pods-SkycoinTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E292B527FCD1171794AFC7A7D03BF02A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99D911FED884A72D078E7D53C043A7F /* YBUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YBUtils/YBUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDDEA21A6334D9353226A57B86DB356F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99D911FED884A72D078E7D53C043A7F /* YBUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YBUtils/YBUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044D285AC59D869241FF88A7687B8C38 /* Build configuration list for PBXNativeTarget "Pods-SkycoinTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2D8B1DB31F629437DCA40FC3482963 /* Debug */,
+				299276349DF3AB972631A90F342E4B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59870782ED962A6F2346352EF7C3DCCF /* Build configuration list for PBXNativeTarget "Pods-SkycoinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0E9B8366FF0C0DA26FD1FD316CBC8B /* Debug */,
+				DB4A129627721D55545C49624CB5227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C3C7DA5CBF5EF1D3210E6F160C7522 /* Build configuration list for PBXNativeTarget "YBUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E292B527FCD1171794AFC7A7D03BF02A /* Debug */,
+				EDDEA21A6334D9353226A57B86DB356F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28C947BBB99824F57D8C1DA140CAB18 /* Build configuration list for PBXNativeTarget "Pods-SkycoinTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CEFACC6C50D4D1FA4D996BA67EFE75 /* Debug */,
+				B8C1F116543EDD0C0E604B897B7A55D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
